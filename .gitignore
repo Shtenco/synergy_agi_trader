@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+mt5_credentials*
+broker_credentials*
+secrets/
+
+# Models and training artifacts
+models/
+checkpoints/
+adapters/
+runs/
+wandb/
+*.pkl
+*.joblib
+*.cbm
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Runtime state and logs
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+state/
+cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,82 @@
+{
+  "manifest_version": 1,
+  "repository": "Shtenco/synergy_agi_trader",
+  "import_date": "2026-09-17",
+  "import_purpose": "Preserve the complete current AGI Trader research lineage and approved SHTENCO SEAL Sovereign Trader architecture before runtime implementation.",
+  "excluded_generated_artifacts": [
+    "__pycache__/",
+    "*.pyc"
+  ],
+  "artifacts": [
+    {
+      "source_name": "agi_trader_final_v1.py",
+      "destination": "legacy/v1/agi_trader_final_v1.py",
+      "size_bytes": 68694,
+      "sha256": "418ee6bce33d6806baafcdc245a8b95c469dc494f003b0a45ce11d6f0b99c9df",
+      "role": "legacy_source"
+    },
+    {
+      "source_name": "ai_trader_seal_rl_forward.py",
+      "destination": "legacy/v2/ai_trader_seal_rl_forward.py",
+      "size_bytes": 102283,
+      "sha256": "42eef417c9dbfc878bb75540e0fa9e877a5a8686e2d1dc11603369d9c3f093e0",
+      "role": "legacy_source"
+    },
+    {
+      "source_name": "ai_trader_quantum_fusion_bip39_seal.py",
+      "destination": "legacy/v3/ai_trader_quantum_fusion_bip39_seal.py",
+      "size_bytes": 117427,
+      "sha256": "c17bef9d4bbb3ca62bcd046abfad7bde5d329e08bc5c9cd02e90a1b8ee3fb230",
+      "role": "legacy_source"
+    },
+    {
+      "source_name": "ai_trader_SEAL_with_RL_MINIMAL.py",
+      "destination": "legacy/v4/ai_trader_SEAL_with_RL_MINIMAL.py",
+      "size_bytes": 125409,
+      "sha256": "e07df247771831608c22bbebe522196e80d233fbb8a6af131b821808a66c719e",
+      "role": "legacy_source"
+    },
+    {
+      "source_name": "Вставленная ​​уценка.md",
+      "destination": "research/articles/01_llm_trader_top_traders.md",
+      "size_bytes": 43233,
+      "sha256": "7c65ce3c0034bc13eeddb0d33bc2e8066e7cb037d13b8f7f126fde49e47caf27",
+      "role": "research_article"
+    },
+    {
+      "source_name": "Вставленных ​​уценки (2).md",
+      "destination": "research/articles/02_continual_llm_adaptation.md",
+      "size_bytes": 49162,
+      "sha256": "e647e58ee20d11a549e85dae0df2ab9f7d71bd9292e23b9e5f05ca9ed78da809",
+      "role": "research_article"
+    },
+    {
+      "source_name": "Вставленных ​​уценки (3).md",
+      "destination": "research/articles/03_rl_llm_quantum_seal.md",
+      "size_bytes": 53257,
+      "sha256": "ce7e3a57ee9a8d721387480965b0bc9a764e9a52f2e15db7ab0ee384585785b7",
+      "role": "research_article"
+    },
+    {
+      "source_name": "Вставленных ​​уценки (4).md",
+      "destination": "research/articles/04_autonomous_llm_seal_forward.md",
+      "size_bytes": 67470,
+      "sha256": "6886436a67d9c0f99896605bb8512228c6f844b3993cec3bb681d43cefee1b55",
+      "role": "research_article"
+    },
+    {
+      "source_name": "2026-09-17-shtenco-seal-sovereign-trader-design.md",
+      "destination": "docs/superpowers/specs/2026-09-17-shtenco-seal-sovereign-trader-design.md",
+      "size_bytes": 54475,
+      "sha256": "0ac8d45c795311c73af83e4d070b92e4a0d72473c148f8d24c3ee4acdf0e646a",
+      "role": "design_spec"
+    },
+    {
+      "source_name": "2026-09-17-sovereign-trader-repository-import.md",
+      "destination": "docs/superpowers/plans/2026-09-17-sovereign-trader-repository-import.md",
+      "size_bytes": 8415,
+      "sha256": "621e6104637660a6a36c368af42b958b393a56f00fc775b5d183d0aefdb7d095",
+      "role": "implementation_plan"
+    }
+  ]
+}
