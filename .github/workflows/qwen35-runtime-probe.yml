@@ -1,0 +1,29 @@
+name: Qwen 3.5 runtime probe
+
+on:
+  push:
+    branches:
+      - runtime/qwen35-4b-2026-eval
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Environment
+        run: |
+          set -euxo pipefail
+          uname -a
+          df -h
+          free -h
+          curl --version
+          python3 --version
+      - name: Network probe
+        run: |
+          set -euxo pipefail
+          curl -fsSI --max-time 30 https://huggingface.co/Qwen/Qwen3.5-4B | head
+          curl -fsSI --max-time 30 https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.1 | head
