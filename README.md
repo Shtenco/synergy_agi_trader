@@ -350,3 +350,27 @@ README должен показывать: проблему → архитект�
 Репозиторий не присваивает полномочия соседнего домена: AI ≠ authorization, UI ≠ ledger, blockchain commitment ≠ accounting truth, backtest ≠ realized external P&L.
 
 <!-- SYNERGY-FEDERATION-PASSPORT:END -->
+
+---
+
+# 🧠 Глубокий статус-паспорт Sovereign Trader
+
+## Реальность `main`
+
+Текущий repo в основном хранит approved design, migration manifest, archived foundation parts и historical v1–v4 lineage. Полный Sovereign Trader runtime, описанный в target architecture, ещё не материализован как единый production stack.
+
+```mermaid
+flowchart LR
+    LEG[Legacy v1-v4] --> SPEC[Approved Sovereign Trader design]
+    SPEC --> IMPL[Future runtime]
+    IMPL --> GUARD[Deterministic Capital Guardian]
+    GUARD --> SHADOW[Shadow/canary]
+```
+
+## Непереговорный инвариант
+
+Mutable LLM/SEAL layer не может менять или обходить Capital Guardian. Self-edit candidate должен проходить hidden evaluation и promotion gate вне самой модели.
+
+## Следующий рубеж
+
+materialize typed `TradeThesis/DecisionIntent/SelfEdit` contracts → deterministic guardian tests → shadow loop → immutable champion manifest → bounded canary.
