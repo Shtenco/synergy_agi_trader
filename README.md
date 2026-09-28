@@ -317,3 +317,36 @@ This repository aggregates original research code plus external Python/model dep
 **Milestone: 2026 historical Sovereign Trader evaluation.**
 
 The immediate objective is to reconstruct the user's historical FX data, run a controlled 2026 backtest using the strongest practical current Qwen model in the ~3–4B class, preserve every decision in an audit journal, and use the result as the first empirical baseline for the next Sovereign Trader implementation cycle.
+
+
+<!-- SYNERGY-FEDERATION-PASSPORT:START -->
+---
+
+## 🧭 SYNERGY federation passport
+
+**Домен:** 🤖 AGI trader  
+**Архитектурный родитель:** [`synergy_midas_ai`](https://github.com/Shtenco/synergy_midas_ai)  
+**Архитектурный корень:** [`synergy_system`](https://github.com/Shtenco/synergy_system)
+
+```mermaid
+flowchart LR
+    SYS[🧭 synergy_system] --> P[synergy_midas_ai]
+    P --> THIS[synergy_agi_trader]
+    THIS --> E[📦 Evidence / outputs]
+```
+
+### Документационный контракт
+
+README должен показывать: проблему → архитектуру → реальные артефакты → проверку → ограничения → связи с федерацией. Сильные claims без evidence остаются R&D/CANDIDATE.
+
+### Навигация
+
+- [📚 Атлас всех 75 репозиториев](https://github.com/Shtenco/synergy_system/blob/main/docs/SYNERGY_REPOSITORY_ATLAS.md)
+- [🧾 Машиночитаемый registry](https://github.com/Shtenco/synergy_system/blob/main/registry/SYNERGY_REPOSITORIES.json)
+- [🧭 SYNERGY SYSTEM](https://github.com/Shtenco/synergy_system)
+
+### Authority rule
+
+Репозиторий не присваивает полномочия соседнего домена: AI ≠ authorization, UI ≠ ledger, blockchain commitment ≠ accounting truth, backtest ≠ realized external P&L.
+
+<!-- SYNERGY-FEDERATION-PASSPORT:END -->
